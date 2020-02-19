@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDYua8j3in1lZ4BErMLdzxNBtolzBee0X0",
+    authDomain: "catch-of-the-day-96ef0.firebaseapp.com",
+    databaseURL: "https://catch-of-the-day-96ef0.firebaseio.com",
+    projectId: "catch-of-the-day-96ef0",
+    storageBucket: "catch-of-the-day-96ef0.appspot.com",
+    messagingSenderId: "558612034041",
+    appId: "1:558612034041:web:40968cbb1f9abdc2c30d28",
+    measurementId: "G-7Y2M0LNFL0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
